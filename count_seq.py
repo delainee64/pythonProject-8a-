@@ -6,9 +6,9 @@
 
 def count_seq():
     """A generator function that creates a sequence."""
-    num = "2"  # String instead of integer.
+    num = '2'  # String instead of integer.
     while True:
-        yield int(num)
+        yield str(num)
         next_num = ""
         while len(num) > 0:
             value = num[0]
